@@ -13,7 +13,6 @@ public class CatHouse {
     // themselves first!  If they have the same age, have them
     // introduce themselves alphabetically; if they have the same name AND
     // same age, then have cat1 go first
-    //
     public void rollCall() {
         if (cat1.getAge() > cat2.getAge()) {
             cat1.introduce();
