@@ -13,6 +13,7 @@ public class CatHouseRunner {
 
         // TASK 2-3: write the methods as specified, then write code below to
         // test your new methods using the objects you created above in Task 1
+        cat1.introduce();
 
 
 
@@ -21,7 +22,7 @@ public class CatHouseRunner {
 
 
         // TASK 4: COMPLETE TEST CASES: uncomment the code below to fully test
-/*
+
     System.out.println("------- Test set 1 -------");
     Cat garfield = new Cat("Garfield", 5);
     Cat crookshanks = new Cat("Crookshanks", 6);
@@ -76,6 +77,6 @@ public class CatHouseRunner {
     sameCats.rollCall();
 
     sameCats.catNoise();
- */
+
     }
 }
